@@ -18,9 +18,9 @@
       - IPC
     damage:
       types:
-        Bloodloss: -0.5 #lowers bloodloss damage
+        Bloodloss: -3.5 #lowers bloodloss damage
     delay: 1.6
-    modifyBloodLevel: 15 #restores about 5% blood per use on standard humanoids.
+    modifyBloodLevel: 30 #restores about 10% blood per use on standard humanoids. IPCs don't have any other way to heal blood level.
     healingBeginSound:
       path: "/Audio/Items/Medical/brutepack_begin.ogg"
       params:
